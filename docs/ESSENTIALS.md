@@ -386,15 +386,12 @@ Things that have already cost time:
 4. **`public/manifest.json` has mojibake** in `name`/`description` (double-encoded
    Arabic). Fix it if you care about the installed app name.
 5. **`android/allowBackup` is `true`.** Turn it off for production.
-6. **`testsprite_tests/` is stale.** It references an old product name, the wrong
-   port, and a `favorites` table the app doesn't use. Don't trust it as
-   documentation.
-7. **`SETUP_ALL.sql` at the repo root is deprecated** and marked as such. It is
-   kept only for history — use `supabase_setup.sql` plus the hardening
+6. **`SETUP_ALL.sql` is deprecated** and marked as such. It is kept only at
+   `docs/archive/` for history — use `supabase_setup.sql` plus the hardening
    migration.
-8. **The booking sheet collects card data** without a payment gateway. It is
+7. **The booking sheet collects card data** without a payment gateway. It is
    simulated. Do not put real card flows around it.
-9. **Third-party geo services have no API keys.** Nominatim and OSRM in
+8. **Third-party geo services have no API keys.** Nominatim and OSRM in
    particular will rate-limit a popular deployment.
 
 ---

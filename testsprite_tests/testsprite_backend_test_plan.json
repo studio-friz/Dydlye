@@ -1,7 +1,0 @@
-[
-  {
-    "id": "TC001",
-    "title": "getrootpathreturns200html",
-    "description": "Verify that a GET request to the root path '/' without authentication returns a 200 status code with an HTML response rendering the main application interface."
-  }
-]

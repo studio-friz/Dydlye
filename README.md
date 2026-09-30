@@ -323,7 +323,7 @@ Be aware of these before using the project in production:
   will not work until those are configured.
 - **Third-party map services** (Nominatim, OSRM, ArcGIS, OSM, Carto) are used
   without API keys and have their own usage policies and rate limits.
-- **Test coverage is minimal.** `testsprite_tests/` contains a single smoke test.
+- **Test coverage is minimal.** There is no automated test suite yet.
 - **`allowBackup` is enabled** in the Android manifest. Disable it if you handle
   sensitive data on device.
 

@@ -38,10 +38,6 @@ admin/.env.*
 *.sln
 *.sw?
 
-# TestSprite artefacts - third-party tool output, and its tmp/ folder held an
-# API key.
-testsprite_tests/tmp/
-
 # Secrets - never commit
 .env
 .env.*

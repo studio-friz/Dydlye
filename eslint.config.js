@@ -20,7 +20,6 @@ export default tseslint.config(
       "android",
       "public/offline",
       "public/borders",
-      "testsprite_tests",
       "routeTree.gen.ts",
     ],
   },

@@ -1,0 +1,89 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+.output
+.vinxi
+.tanstack/**
+.nitro
+*.local
+
+# Admin panel (React + Vite, lives in this repo)
+admin/node_modules
+admin/dist
+admin/.env
+admin/.env.*
+!admin/.env.example
+
+# Wrangler / Cloudflare
+.wrangler/
+.dev.vars
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TestSprite artefacts - third-party tool output, and its tmp/ folder held an
+# API key.
+testsprite_tests/tmp/
+
+# Secrets - never commit
+.env
+.env.*
+!.env.example
+
+# Android keystore - never commit
+*.jks
+*.keystore
+*.p12
+android/keystore.properties
+android/dydlye-release-password.txt
+
+# Android local build state (absolute SDK paths, gradle caches)
+android/local.properties
+android/.gradle/
+android/build/
+android/app/build/
+android/.kotlin/
+
+# Capacitor copies dist/ here on `npx cap sync` — regenerated build output that
+# would otherwise be committed (~20 MB) with the project ref baked in.
+android/app/src/main/assets/public/
+android/app/src/main/assets/capacitor.config.json
+android/app/src/main/assets/capacitor.plugins.json
+
+# Local dev artifacts
+dev_error.txt
+dev_output.txt
+raw.html
+*.apk
+
+# Signing material / key directories - never commit
+key/
+keys/
+*.pem
+*.key
+
+# Supabase CLI local state (project ref, pooler URL, versions)
+supabase/.temp/
+
+# OS / editor noise
+Thumbs.db
+
+# Android APK build output metadata
+android/app/debug/

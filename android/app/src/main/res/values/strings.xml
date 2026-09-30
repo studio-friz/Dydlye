@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Dydlye</string>
+    <string name="title_activity_main">Dydlye</string>
+    <string name="package_name">com.dydlye.app</string>
+    <string name="custom_url_scheme">com.dydlye.app</string>
+    <string name="server_client_id">1085297218555-f2tuds0e0spt8pkgqd7ldefamce993i1.apps.googleusercontent.com</string>
+</resources>

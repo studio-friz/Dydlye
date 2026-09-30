@@ -1,0 +1,7 @@
+# Supabase CLI configuration.
+#
+# The project ref is intentionally NOT stored here: it belongs to your own
+# account and is written to supabase/.temp/ (git-ignored) when you run
+#   supabase link --project-ref <your-project-ref>
+#
+# See ../docs/SUPABASE.md for the full setup.
